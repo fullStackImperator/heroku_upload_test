@@ -11,7 +11,7 @@ cryptography==2.1.4
 cvxopt==1.1.9
 cycler==0.10.0
 Cython==0.25.2
-dash==0.18.3
+dash==0.19.0
 dash-auth==0.0.8
 dash-core-components==0.12.7
 dash-html-components==0.7.0
