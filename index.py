@@ -1,20 +1,24 @@
  # -*- coding: utf-8 -*-
+#import dash
 from dash.dependencies import Input, Output
 import dash_core_components as dcc
 import dash_html_components as html
 import dash_table_experiments as dt
 import json
+#import server
 
 from app import app
 #from apps import app1, app2, app3, app4, app5, app6, app7, app8, app9, app10, app11, app12  #app1,
 from apps import app1, app2, app3, app4, app5, app6 #, app7, app8, app9, app10, app11, app12  #app1,
 
+app = dash.Dash()
+server=app.server
+server.secret_key = os.environ.get('secret_key', 'secret')
 
 app.layout = html.Div([
     dcc.Location(id='url', refresh=False),
     html.Div(dt.DataTable(rows=[{}]), style={'display': 'none'}),
     html.Div(id='page-content')
-    
 ])
 
 
