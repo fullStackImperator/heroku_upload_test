@@ -36,7 +36,7 @@ Jinja2==2.9.6
 JPype1==0.6.1
 jsonschema==2.6.0
 jupyter-core==4.3.0
-lxml==4.1.1
+lxml==4.6.3
 MarkupSafe==1.0
 matplotlib==1.5.1
 mechanize==0.2.5
