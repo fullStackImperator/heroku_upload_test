@@ -82,7 +82,7 @@ tokenize-rt==2.0.1
 traitlets==4.3.2
 Twisted==13.0.0
 Unidecode==0.4.19
-urllib3==1.22
+urllib3==1.26.5
 virtualenv==15.1.0
 virtualenv-clone==0.3.0
 w3lib==1.2
